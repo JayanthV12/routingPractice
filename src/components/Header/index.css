@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.header-container {
+  background-color: white;
+  height: 20vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 800;
+  color: #6d396b;
+}
+.image {
+  height: 60px;
+  width: 60px;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 400;
+  color: #6d396b;
+  margin-right: 40px;
+  list-style-type: none;
+}
